@@ -1,0 +1,21 @@
+{
+    "name": "flexibuild/component",
+    "description": "ComponentTrait for yii2, that will allow you to extend your Object instance with behaviors and events functionality.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","component","behavior","event"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SeynovAM",
+            "email": "sejnovalexey@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "flexibuild\\component\\": ""
+        }
+    }
+}
